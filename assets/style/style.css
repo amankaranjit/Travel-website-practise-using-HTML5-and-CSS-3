@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+  --white: #fff;
+  --green: rgb(59, 143, 23);
+  --black: rgb(0, 0, 0);
+  --yellow: rgb(222, 234, 4);
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+li {
+  list-style: none;
+}
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.text_center {
+  text-align: center;
+}
+.title {
+  color: var(--green);
+  font-size: 45px;
+  font-weight: normal;
+}
+.btn {
+  border-color: var(--white);
+  padding: 3px 40px;
+  font-size: 20px;
+  color: var(--white);
+  cursor: pointer;
+}
+.btn_rounded {
+  border-style: solid;
+  border-radius: 25px;
+}
+.opacity {
+  background-color: transparent;
+}
+/* navbar */
+.nav__wrapper {
+  padding-top: 10px;
+  height: 100%;
+  background-image: url('../images/image3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-items ul li {
+  font-size: 20px;
+  padding: 22px 20px;
+}
+.nav-banner {
+  padding-top: 230px;
+  color: var(--white);
+}
+.nav-banner h1 {
+  margin-bottom: 0px;
+}
+.nav-banner span {
+  display: block;
+  margin-top: 0 !important;
+  font-weight: 600;
+  font-size: 65px;
+}
+.text {
+  margin: 0 auto;
+  width: 250px;
+}
+.nav-btn {
+  padding: 25px 50px;
+  border-radius: 5px;
+  /* margin: 50px 0; */
+  margin-bottom: 80px;
+  background-color: #ffcc16;
+  border: none;
+  color: var(--black);
+  font-size: 20px;
+}
+
+/* services */
+.services__wrapper h2 {
+  padding: 50px 0;
+}
+
+.service-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* margin: 0 200px; */
+}
+.service-card {
+  width: 33.33%;
+  margin-bottom: 50px;
+}
+.services-imgdiv {
+  background-color: red;
+  margin: 10px auto;
+  height: 500px;
+  width: 350px;
+}
+.services-imgdiv img {
+  width: 100%;
+  height: 100%;
+}
+.service-infodiv {
+  padding: 0 20px;
+  line-height: 1.7;
+  /* padding: 10px 30px; */
+  font-weight: normal;
+}
+
+.service-infodiv h3 {
+  font-weight: normal;
+  font-size: 22px;
+}
+
+/* quotes */
+.testimonials__wrapper {
+  padding: 50px 0;
+  background-color: rgba(82, 104, 64, 0.3);
+}
+.text {
+  padding: 50px 0;
+  width: 600px;
+  font-size: 28px;
+  font-family: 'Roboto';
+  line-height: 1.5;
+}
+
+.testimonials-imgdiv img,
+h5 {
+  padding: 5px 0;
+  font-weight: normal;
+}
+
+/* about us */
+.about-main {
+  margin: 70px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-info {
+  color: var(--green);
+  width: 500px;
+}
+.about-info h5 {
+  padding-top: 70px;
+  font-weight: normal !important;
+}
+
+.about-img {
+  width: 450px;
+  height: auto;
+}
+
+.about-info .text {
+  padding: 5px 0;
+  font-size: 35px;
+}
+.about-info p {
+  padding-right: 50px;
+  padding: 20px 0;
+  margin-right: 100px;
+  line-height: 1.6;
+}
+.about-info button {
+  margin: 40px 0;
+  border-color: var(--green);
+  padding: 14px 30px;
+  color: var(--green);
+  border-style: solid;
+  border-radius: 2px;
+}
+.about-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* question */
+.question__wrapper {
+  height: 450px;
+  background-image: url('../images/tobias-keller-73F4pKoUkM0-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.question-info {
+  color: var(--green);
+  padding-top: 100px;
+}
+.question-info span {
+  font-size: 45px;
+}
+.question-info .text {
+  font-size: 20px;
+
+  font-weight: normal;
+}
+.question-btn {
+  font-size: 15px;
+  color: var(--green);
+  padding: 15px 40px;
+  background-color: #ffcc16;
+  border: none;
+  border-radius: 2px;
+}
+.btns {
+  margin-bottom: 50px;
+}
+/* footer */
+
+.footer__wrapper .footer-items {
+  padding: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.footer__wrapper,
+.itemss ul li a {
+  color: var(--green);
+}
+.footer-items ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer__wrapper .footer-items ul li {
+  padding: 25px 20px;
+}
+.itemss {
+  width: 33.33%;
+}
+.itemss:nth-child(2) img {
+  margin: 0px 40%;
+}
+.itemss img {
+  filter: invert(62%) sepia(85%) saturate(11934%) hue-rotate(246deg)
+    brightness(47%) contrast(126%);
+}
+.itemss:nth-child(3) {
+  padding: 20px 0px;
+}
